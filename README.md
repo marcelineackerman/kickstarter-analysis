@@ -49,7 +49,7 @@ A second limitation is there is no way to determine success based on the theme o
 
 - What are some other possible tables and/or graphs that we could create?
 
-Using the existing dataset, you could create a chart that demonstrates success vs failure rate based on the length of a campaign from launch to deadline. Do longer campaigns have a higher rate of success, or short ones? First, make a table of the differences between launch and deadline in categories like "1 month" "2 months" using the COUNTIFS function, then compare that against success and failure rates and plot them on a line graph.
+Using the existing dataset, you could create a chart that demonstrates success vs failure rate based on the length of a campaign from launch to deadline. Do longer campaigns have a higher rate of success, or short ones? First, add a column finding the date difference between launch and deadline, then make a table of the differences between launch and deadline in categories like "1 month" "2 months" using the COUNTIFS function, then compare that against success and failure rates and plot them on a line graph.
 
 You could also create a table and graph demonstrating if a large number of smaller backers is more successful than a smaller number of larger backers. This could help determine what incentives to offer at each backer level to incentivize larger donations. First, find the average donation and make a range for number of plays like "<10" "10-50" "50-150", then plot it on a stacked column graph demonstrating the successful, failed, and canceled campaigns for each range.
 
